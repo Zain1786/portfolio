@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<video  autoplay loop muted  id="myVideo">
+  <source src="/30 Seconds in Nature_ Sunset at Loon Lake.mp4" type="video/mp4">
+</video>
+
+   <section class="weather_container">
+   
+    <form class="search_box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" class="input" placeholder="enter your city ...">
+    </form>
+
+    <section class="weather_body">
+        <h1 class="weather_city"></h1>
+        <div class="weather_time"></div>
+        <div class="weather_forecast"></div>
+        <div class="weather_icon"><i class="fa-solid fa-cloud"></i></div>
+        <div class="weather_temp"></div>
+        
+        <div class="weather_range">
+            <div class="weather_min"><p></p></div>
+            <div class="weather_max"><p></p></div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="info_box">
+            <i class="fa-solid fa-temperature-empty"></i>
+            <p class="Feels">Feels Like: 15&#176;</p>
+        </div>
+        <div class="info_box "><i class="fa-solid fa-droplet"></i><p class="hum"></p></div>
+        <div class="info_box"><i class="fa-solid fa-wind"></i><p class="wind"></p></div>
+        <div class="info_box "><i class="fa-solid fa-gauge"></i><p class="pressure"></p></div>
+    </section>
+</section>
+    <script src="app.js"></script>
+</body>
+</html>

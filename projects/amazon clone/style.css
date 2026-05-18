@@ -1,0 +1,551 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    width:100%;
+    min-height:60px;
+    background-color:#131921;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:10px;
+    gap:10px;
+}
+
+.nav-logo{
+    height:58px;
+    width:120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo{
+    height:54px;
+    width:120px;
+    background-image:url(images/navlogo2.PNG);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.border{
+    border:1.5px solid transparent;
+    transition:0.3s;
+}
+
+.border:hover{
+    border:1.5px solid white;
+}
+
+/* ================= ADDRESS ================= */
+
+.nav-adress{
+    text-decoration:none;
+    color:white;
+}
+
+.deliver{
+    margin-left:20px;
+    font-size:0.7rem;
+    color:rgb(228,225,225);
+}
+
+.add-icon{
+    display:flex;
+    align-items:center;
+    color:white;
+    font-weight:550;
+}
+
+.add-icon i{
+    margin-left:8px;
+}
+
+/* ================= SEARCH ================= */
+
+.nav-search{
+    height:40px;
+    width:450px;
+    display:flex;
+    align-items:center;
+    border-radius:4px;
+    overflow:hidden;
+}
+
+.nav-select{
+    width:60px;
+    height:40px;
+    border:none;
+    background-color:rgb(206,202,202);
+    text-align:center;
+}
+
+.nav-input{
+    width:100%;
+    height:40px;
+    border:none;
+    padding-left:10px;
+}
+
+.search-icon{
+    width:50px;
+    height:40px;
+    background-color:rgb(233,183,75);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.2rem;
+    color:#131921;
+}
+
+/* ================= FLAG ================= */
+
+.flag{
+    display:flex;
+    align-items:center;
+    color:white;
+    text-decoration:none;
+}
+
+.flag-container{
+    height:13px;
+    width:20px;
+    background-image:url(images/flag.png);
+    background-size:cover;
+    margin-right:5px;
+}
+
+.en{
+    font-weight:550;
+}
+
+/* ================= ACCOUNT ================= */
+
+.box3,
+.box4{
+    text-decoration:none;
+    color:white;
+}
+
+.hold,
+.returns{
+    color:rgb(228,225,225);
+    font-size:0.8rem;
+}
+
+.account,
+.orders{
+    font-size:1rem;
+    font-weight:550;
+}
+
+/* ================= CART ================= */
+
+.box5{
+    display:flex;
+    align-items:end;
+    text-decoration:none;
+    color:white;
+}
+
+.box5 i{
+    font-size:2rem;
+    margin-right:5px;
+}
+
+.cart{
+    font-size:1rem;
+    font-weight:550;
+}
+
+/* ================= OPTIONS ================= */
+
+.nav-options{
+    width:100%;
+    min-height:40px;
+    background-color:#232f3e;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:10px;
+    gap:20px;
+}
+
+.menu,
+.deal,
+.customer,
+.registery,
+.gift,
+.sell{
+    color:white;
+    text-decoration:none;
+    font-size:0.9rem;
+}
+
+/* ================= HERO IMAGE ================= */
+
+.kitchen{
+    width:100%;
+    height:320px;
+    background-image:url(images/kitchen_.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* ================= SHOP SECTION ================= */
+
+.shop-section{
+    width:100%;
+    background-color:rgb(212,211,211);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+.box{
+    width:300px;
+    min-height:420px;
+    background-color:white;
+    padding-bottom:15px;
+    border-radius:10px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.box:hover{
+    transform:translateY(-5px);
+}
+
+.title{
+    margin-top:10px;
+    margin-left:15px;
+}
+
+.button{
+    margin-top:15px;
+    margin-left:25px;
+}
+
+.a{
+    text-decoration:none;
+    color:blue;
+}
+
+/* ================= PRODUCT IMAGES ================= */
+
+.img,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10,
+.img11,
+.img12{
+    width:90%;
+    height:310px;
+    margin:15px auto;
+
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+
+    border-radius:10px;
+
+    image-rendering:auto;
+}
+
+/* Individual Images */
+
+.img{
+    background-image:url(images/toys.png);
+}
+
+.img2{
+    background-image:url(images/pcimg.png);
+}
+
+.img3{
+    background-image:url(images/shoes.png);
+}
+
+.img4{
+    background-image:url(images/BEAUTY.PNG);
+}
+
+.img5{
+    background-image:url(images/clothes.png);
+}
+
+.img6{
+    background-image:url(images/warmer.PNG);
+}
+
+.img7{
+    background-image:url(images/GAMING.PNG);
+}
+
+.img8{
+    background-image:url(images/watches.PNG);
+}
+
+.img9{
+    background-image:url(images/xbox.PNG);
+}
+
+.img10{
+    background-image:url(images/fun.PNG);
+}
+
+.img11{
+    background-image:url(images/look-best.PNG);
+}
+
+.img12{
+    background-image:url(images/dining.PNG);
+}
+
+/* ================= BIG BANNER ================= */
+
+.box13{
+    width:95%;
+    background-color:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.img13{
+    width:100%;
+    height:300px;
+
+    background-image:url(images/box-big.PNG);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    border-radius:10px;
+}
+
+/* ================= FOOTER ================= */
+
+.footer a{
+    width:100%;
+    height:50px;
+    background-color:#232f3e;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+}
+
+.links{
+    width:100%;
+    background-color:#131921;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    color:white;
+    padding:30px 20px;
+    gap:30px;
+}
+
+ul a{
+    display:block;
+    margin-top:10px;
+    color:#b8b7b7;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.hr{
+    height:1px;
+    background-color:#bababa;
+}
+
+/* ================= LOGO PANEL ================= */
+
+.logo-pannel{
+    width:100%;
+    background-color:#131921;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    padding:15px;
+}
+
+.selector,
+.usd-box a,
+.country{
+    width:160px;
+    height:35px;
+    border:1px solid #bababa;
+    border-radius:3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#bababa;
+    text-decoration:none;
+}
+
+.language{
+    border:none;
+    background:transparent;
+    color:#bababa;
+    width:120px;
+}
+
+.flagfooter{
+    height:14px;
+    width:20px;
+    background-image:url(images/flag.png);
+    background-size:cover;
+    margin-right:5px;
+}
+
+/* ================= COPYRIGHT ================= */
+
+.copyright{
+    width:100%;
+    background-color:#131921;
+    color:#b8b7b7;
+    text-align:center;
+    padding:20px;
+}
+
+.l{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.copy{
+    text-decoration:none;
+    color:#bababa;
+}
+
+/* ================= TABLET ================= */
+
+@media(max-width:1024px){
+
+    .nav-search{
+        width:90%;
+    }
+
+    .box{
+        width:45%;
+    }
+
+    .kitchen{
+        height:250px;
+    }
+
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:768px){
+
+    .navbar{
+        justify-content:center;
+    }
+
+    .nav-search{
+        width:100%;
+    }
+
+    .nav-options{
+        justify-content:center;
+    }
+
+    .box{
+        width:90%;
+    }
+
+    .kitchen{
+        height:200px;
+    }
+
+    .img,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8,
+    .img9,
+    .img10,
+    .img11,
+    .img12{
+        height:250px;
+    }
+
+    .img13{
+        height:220px;
+    }
+
+    .links{
+        flex-direction:column;
+        text-align:center;
+    }
+
+}
+
+/* ================= SMALL MOBILE ================= */
+
+@media(max-width:480px){
+
+    .nav-search{
+        flex-direction:column;
+        height:auto;
+        gap:5px;
+    }
+
+    .nav-select,
+    .nav-input,
+    .search-icon{
+        width:100%;
+    }
+
+    .kitchen{
+        height:160px;
+    }
+
+    .box{
+        width:95%;
+    }
+
+    .img,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8,
+    .img9,
+    .img10,
+    .img11,
+    .img12{
+        height:220px;
+    }
+
+}
